@@ -1,0 +1,100 @@
+body {
+  font-family: "Montserrat, sans-serif";
+}
+h1 {
+  font-family: "Ubuntu";
+  font-size: 3.8rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+#title {
+  background-color: #fd3b58;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+/* nav bar  */
+.navbar {
+  padding: 0 0 5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+.navbar .navbar-nav > li > a {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff !important;
+}
+.nav-item {
+  padding: 0 18px;
+}
+/* Download buttons */
+.download-button {
+  margin: 5% 4% 6% 0;
+}
+/* Navigation Image */
+.nav-image {
+  width: 60%;
+  margin-left: 43%;
+  transform: rotate(25deg);
+}
+/* Features */
+.feature_middle {
+  margin: 5% 0 5% 0;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.feature_middle > h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.feature_middle > p {
+  color: #8f8f8f;
+}
+
+/* icons */
+.fa-circle-check {
+  color: #fd3b58;
+}
+.fa-circle-check:hover {
+  color: #ef8172;
+}
+.fa-bullseye {
+  color: #fd3b58;
+}
+.fa-bullseye:hover {
+  color: #ef8172;
+}
+.fa-heart {
+  color: #fd3b58;
+}
+.fa-heart:hover {
+  color: #ef8172;
+}
+
+/* Tesitmonial */
+.carousel-item {
+  background-color: #fd3b58;
+  text-align: center;
+}
+.testimonial-text {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+  width: 50%;
+  margin-bottom: 0.5rem;
+  margin: auto;
+  margin-top: 3rem;
+  justify-content: center;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
