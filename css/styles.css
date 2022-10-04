@@ -98,3 +98,10 @@ h1 {
   border-radius: 100%;
   margin: 20px;
 }
+/* Press section */
+.press-img {
+  width: 70%;
+}
+#press {
+  background-color: rgb(238, 236, 236);
+}
