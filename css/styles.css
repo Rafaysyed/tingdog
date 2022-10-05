@@ -7,6 +7,7 @@ h1 {
   line-height: 1.5;
   font-weight: 900;
 }
+
 #title {
   background-color: #fd3b58;
 }
@@ -101,7 +102,44 @@ h1 {
 /* Press section */
 .press-img {
   width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.press-img:hover {
+  transform: scale(1.5);
 }
 #press {
   background-color: rgb(238, 236, 236);
+}
+/* Pricing */
+#pricing {
+  padding: 80px;
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Montserrat";
+}
+.pricing-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.card-header {
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin: 5% 4% 0 4%;
+}
+.price-text {
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
