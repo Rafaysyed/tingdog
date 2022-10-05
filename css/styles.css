@@ -158,3 +158,8 @@ p {
   font-size: 3.5rem;
   line-height: 1.5;
 }
+#footer {
+  text-align: center;
+  font-family: "Montserrat";
+  padding: 5% 10%;
+}
